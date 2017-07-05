@@ -1,0 +1,6 @@
+{
+    "title" : "Welcome to Berlin",
+    "description": "My first website ! Here, for this project, we started first to make the HTML and CSS, then, we added the CSS media queries to make this website responsive. Then we added some interaction with javascript (for example the hamburger menu). Finally we used a setTimeout to show the alert after one sec. That was really nice to get into this project, and sees, day after day, how complex the website became. Now I feel that it's quite simple, but that was a project I learnt a lot of things with !",
+    "url" : "http://localhost:8080/welcometoberlin" ,
+    "directory": "welcometoberlin"
+}

@@ -1,0 +1,320 @@
+#modal-container {
+    position: fixed;
+    left: -100%;
+    z-index: 10;
+    display: none;
+}
+
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 10;
+}
+
+#modal {
+    position:fixed;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+    z-index: 10000;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#modal-container.show-modal {
+    display: block;
+
+}
+
+
+#content {
+    border-radius:8px;
+    background:#fff;
+    padding:20px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#content h4 {
+    text-align: center;
+}
+
+#content p {
+    text-align: center;
+    margin: auto;
+}
+
+#content p:last-child {
+    margin-bottom: 10px;
+}
+
+
+#modal-cross {
+    position:absolute;
+    background-color: white;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:11px;
+    right:11px;
+}
+
+#modal-cross:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+#hamburger-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index : 1000000;
+    bottom : 100%;
+}
+
+#hamburger-container.show {
+    bottom : 0;
+}
+
+
+#hamburger-container.show #menu-background {
+    right : 0;
+}
+
+
+#grey-overlay {
+    position: absolute;
+    background-color: grey;
+    filter: opacity(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+#menu-background {
+    position: absolute;
+    width : 300px;
+    height: 100%;
+    right: -300px;
+    background-color: white;
+    transition-property: right;
+    transition-duration: 2s;
+}
+
+
+
+#cross {
+    max-width : 10px;
+    position: absolute;
+    right : 3%;
+    top : 3%;
+}
+
+ul  {
+    position: relative;
+    list-style-type: none;
+    top : 10%;
+    left : 10%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-decoration: none;
+}
+
+
+li  {
+    padding: 10px;
+}
+
+li:last-child {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    display: block;
+    color : red;
+
+}
+
+body {
+    min-width: 320px;
+    margin: auto;
+}
+
+header {
+    position : relative;
+    height : 80px;
+}
+
+nav {
+    display: none;
+    float: right;
+    margin : 10px,70px,0px,0px;
+}
+
+#logo {
+    float: left;
+    max-width : 160px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#menu-img {
+    float:right;
+    max-width : 35px;
+    margin-right: 70px;
+    margin-top: 22px;
+}
+
+.section2 {
+
+    background-image: url("reichstag.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width : 100%;
+    max-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.layer {
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width : 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#textsection2 {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    padding: 20% 0;
+}
+
+
+#button-section2 {
+    background-color: #FFD700;
+    border: 3px solid #D2691E;
+    border-radius: 50px;
+    color: #D2691E;
+    padding-left:20px ;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    width: 32%;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.section3 {
+    background-color: #D3D3D3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    padding-bottom: 25px;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 30px;
+    overflow:hidden;
+    z-index: 1;
+
+
+}
+
+#content-wrapper {
+    margin: 0 auto;
+}
+
+
+.section3 h6, p {
+    font-size: 16px;
+    margin : 0;
+    text-align: justify;
+    margin-left: 89px;
+    word-spacing: -1px;
+}
+br {
+    clear:both;
+}
+
+
+.bottom-features {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+}
+
+.bottom-features img {
+    max-width : 40px;
+    float: left;
+    position: relative;
+    margin: 10px 20px 20px 30px;
+
+}
+
+@media screen and (max-width : 320px) {
+    #button-section2 {font-size: 9.8px;}
+    h1 {font-size: 12.8px;}
+}
+@media screen and (max-width: 420px){
+    .bottom-features {clear: both; position: relative; /*left: 25%;*/ left: 50%; transform: translate(-50%); width: 75%;}
+    .section3 {background-size: cover;padding-left: 0px; min-width: 320px}
+    .section3 h6, p {position: inherit; text-align: justify;margin-left: 69px;    }
+    .bottom-features img {float:left; padding:0px 10px 10px 10px; margin-top: 0px; margin-right: 10px; margin-bottom: 40px; margin-left: auto;}
+    #textsection2 {padding : 18% 0;}
+}
+
+@media screen and (max-width: 600px){
+    #menu-background {width : 50%; min-width: 160px}
+}
+
+@media screen and (min-width:421px) and (max-width:750px){
+    .bottom-features {clear: both; position: relative; /*left: 25%;*/ left: 50%; transform: translate(-50%); width: 75%;}
+    .section3 {background-size: cover; padding-left: 0px;}
+    .section3 h6, p {position: inherit; text-align: justify;}
+    .bottom-features img {float:left; padding:0px 10px 10px 10px; margin-top: 0px; margin-right: 10px; margin-bottom: 40px; margin-left: auto;}
+}
+
+footer {
+    padding: 10px;
+    background-color: #696969;
+    margin:0px;
+    font-family: serif;
+    color: white;
+    font-size: 11px;
+    clear:both;
+    z-index: 1;
+}
+
+footer p {
+    padding-left: 20px;
+}

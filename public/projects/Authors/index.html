@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+</head>
+<body>
+
+
+
+    <template id="authors">
+
+        <h1>AUTHORS</h1>
+
+        {{#authors}}
+        <div class="author-container">
+            <img class="img" src="{{photo}}">
+            <div class="text-container">
+
+                <p class="text"><b>{{name}} </b>was born in {{born}} and died in {{died}}.<br>Here are some of his most famous writing:</p>
+                <ul class="text">
+                    {{#selectedWritings}}<li>"{{.}}"</li>{{/selectedWritings}}
+                </ul>
+
+                </blockquote>
+            </div>
+            <blockquote class="text">
+                <cite>"{{quote}}"</cite>
+        </div>
+        {{/authors}}
+
+    </template>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

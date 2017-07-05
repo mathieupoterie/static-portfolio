@@ -1,0 +1,131 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.win-message1, .win-message2 {
+    display: none;
+}
+
+.victory1 {
+  animation-duration: 2s;
+  animation-name: animation1;
+  animation-iteration-count: none;
+}
+@keyframes animation1 {
+  from {
+    font-size: 50px;
+    background-color: yellow ;
+  }
+
+  to {
+    font-size: 16px;
+    background-color: rgb(207, 201, 64);
+  }
+}
+
+
+.victory2 {
+  animation-duration: 2s;
+  animation-name: animation2;
+  animation-iteration-count: none;
+}
+@keyframes animation2 {
+  from {
+    font-size: 50px;
+    background-color: red;
+  }
+
+  to {
+    font-size: 16px;
+    background-color: rgb(231, 90, 59);
+  }
+}
+
+.victory1, .victory2 {
+    position: absolute;
+    display: inherit;
+    z-index: 10000;
+    width: 100%;
+    left: 0;
+    top : 44%;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.victory2 {
+        background: rgb(231, 90, 59);
+        color: white;
+}
+
+.victory1{
+    background: rgb(207, 201, 64);
+    color : black;
+
+}
+
+
+
+p {
+    left: 95px;
+    top: 15px;
+    position: absolute;
+    display: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#board{
+    position: absolute;
+    background-color: blue;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px black;
+}
+
+.row {
+    position: relative;
+    display: -webkit-box;
+    background-color: blue;
+}
+
+.slot {
+    border: 1px black solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.slot {
+    border : 5px black solid;
+    margin: 5px;
+    box-shadow: 2px 2px 4px black
+}
+
+.test {
+    background-color: black;
+}
+
+.player1{
+    background-color: yellow;
+}
+
+.player2{
+    background-color : red;
+}
+
+#coin {
+    /*border: 1px black solid;*/
+    position: absolute;
+    display: inline-block;
+    z-index: 10000;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    left :3px;
+    top: 3px;
+}

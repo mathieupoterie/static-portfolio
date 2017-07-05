@@ -1,0 +1,6 @@
+{
+    "title" : "Authors",
+    "description": "This was my first project using handlebars, made on the 4th week of the Spiced bootcamp. We used handlebars to create an author template, from a JSON file. I used to CSS :nth-child to create different style for the second author. I really like this project, and using handlebars for the first time was very interesting, that's a powerful tool and that's the first time we had to add html content from a JSON file, with javascript. A nice preview of the daily work of a developper !",
+    "url" : "http://localhost:8080/Authors" ,
+    "directory": "Authors"
+}

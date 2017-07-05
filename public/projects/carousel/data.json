@@ -1,0 +1,6 @@
+{
+    "title" : "Carousel",
+    "description": "This is my first carousel, made on the 2nd week of the Spiced bootcamp. This kitty carousel was really interesting to work on, very complicated for a second week of coding, but it's useful to get into this kind of animations!",
+    "url" : "http://localhost:8080/carousel" ,
+    "directory": "carousel"
+}

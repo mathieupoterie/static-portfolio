@@ -1,0 +1,6 @@
+{
+    "title" : "Ticker",
+    "description": "The ticker may look like a simple project, but we did it at the Spiced bootcamp just after one week of coding ! That was magical to see those links moving. I really liked to get into the interactivity between the user and the code. That's really fun to see the result, and I also enjoyed to freedom we had to style and choose the content we would have like to value !",
+    "url" : "http://localhost:8080/ticker" ,
+    "directory": "ticker"
+}

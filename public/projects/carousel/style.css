@@ -1,0 +1,57 @@
+.container {
+    position : relative;
+    width : 800px;
+    height : 600px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.kitty {
+    position: absolute;
+    height: 600px;
+    background-size: contain;
+    max-width: 100%;
+}
+
+
+.on-screen{
+    transform: translateX(0%);
+    transition-duration: 2s;
+}
+
+.off-right {
+    transform: translateX(100%);
+    transition-duration: 0s;
+}
+
+.exit-left{
+    transform: translateX(-100%);
+    transition-duration: 2s;
+}
+
+#dot-container {
+    text-align:center;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -200%);
+    z-index: 100000;
+}
+
+.dot {
+    height: 10px;
+    width : 10px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: auto 2px;
+    border: 2px solid white;
+}
+
+.dot-inactive {
+    border: 2px solid white;
+}
+
+.dot-active {
+    background-color: #f88;
+    transform: scale(1.3);
+}

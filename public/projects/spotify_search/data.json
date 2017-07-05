@@ -1,0 +1,6 @@
+{
+    "title" : "Spotify Search",
+    "description": "This project was released on the 4th week of the Spiced bootcamp. I didn't know, before this project, how API used to work concretly. This first project using javascript has a client making request to a server was something really new for me, that I had to idea about before starting. I love this project, and I'm looking forward to make more of those projects in the future.",
+    "url" : "http://localhost:8080/spotify_search" ,
+    "directory": "spotify_search"
+}

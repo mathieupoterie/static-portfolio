@@ -1,0 +1,47 @@
+* {
+    color: black;
+    background : cornsilk;
+
+}
+
+body{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label{
+    display:inline-block;
+    font-size : 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family : sans-serif;
+}
+
+
+input{
+    position: absolute;
+    top: 50%;
+    left: -8%;
+    transform: translate(0%, -50%);
+}
+
+
+button {
+    position: absolute;
+    border: 1px grey solid;
+    border-radius: 6px;
+    background: white;
+    text-transform: uppercase;
+    padding : 6px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 50%;
+
+}
+
+button:hover {
+    font-weight: bold;
+    color: rgb(116, 163, 129)
+}

@@ -1,0 +1,6 @@
+{
+    "title" : "Connect Four",
+    "description": "The Connect Four is one of the hardest project I worked on ! We made it on the 3rd week of the Spiced bootcamp. I've learn a lot on this project about using loops, adding class with javascript, using animations. That was one of our first ambitious project, and I often get into it to try to make it again !",
+    "url" : "http://localhost:8080/connect_four" ,
+    "directory": "connect_four"
+}
